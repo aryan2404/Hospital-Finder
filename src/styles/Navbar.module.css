@@ -1,0 +1,164 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 98%;
+  padding: 10px 25px;
+  background: rgba(10, 222, 165, 0.2);
+  backdrop-filter: blur(12px);
+  border-radius: 0 0 15px 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease-in-out;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.logo:hover {
+  transform: scale(1.05);
+}
+
+.navLinks {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.navLinks li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.navLinks li a:hover {
+  color: #f39c12;
+  transform: translateY(-2px);
+}
+
+.authSection {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.welcomeText {
+  font-size: 14px;
+  font-weight: 600;
+  opacity: 0;
+  animation: fadeIn 0.6s forwards ease-in-out;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #f39c12;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.avatar:hover {
+  transform: scale(1.1);
+}
+
+.signInButton, .signOutButton {
+  padding: 6px 16px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.signInButton {
+  background: #2ecc71;
+  color: white;
+}
+
+.signInButton:hover {
+  background: #27ae60;
+  transform: scale(1.05);
+}
+
+.signOutButton {
+  background: #e74c3c;
+  color: white;
+}
+
+.signOutButton:hover {
+  background: #c0392b;
+  transform: scale(1.05);
+}
+
+@media (max-width: 1024px) {
+  .navbar {
+    padding: 10px 20px;
+  }
+
+  .navLinks {
+    display: flex;
+    flex-direction: row;
+    position: static;
+    width: auto;
+    background: transparent;
+    padding: 0;
+    border-radius: 0;
+    text-align: left;
+  }
+
+  .navLinks li {
+    margin: 0 10px;
+  }
+
+  .authSection {
+    flex-direction: row;
+    gap: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navLinks {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .navLinks {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+  }
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

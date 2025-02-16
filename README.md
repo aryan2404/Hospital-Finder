@@ -1,8 +1,8 @@
-# MediMap
+# HospitalFinder
 
-MediMap is a web application that helps users find nearby hospitals based on their real-time location. Whether it's an emergency or planned healthcare visit, MediMap provides instant access to medical facilities through an interactive map.
+HospitalFinder is a web application that helps users find nearby hospitals based on their real-time location. Whether it's an emergency or planned healthcare visit, HospitalFinder provides instant access to medical facilities through an interactive map.
 
-## Features
+<!-- ## Features
 - Real-time hospital search based on user location
 - Interactive Google Maps integration
 - User-friendly interface with smooth navigation
@@ -17,7 +17,7 @@ MediMap is a web application that helps users find nearby hospitals based on the
 - **Styling:** CSS / SCSS
 
 ## Installation
-Follow these steps to set up and run MediMap locally:
+Follow these steps to set up and run HospitalFinder locally:
 
 1. Clone the repository:
    ```sh
@@ -25,7 +25,7 @@ Follow these steps to set up and run MediMap locally:
    ```
 2. Navigate to the project folder:
    ```sh
-   cd MediMap
+   cd HospitalFinder
    ```
 3. Install dependencies:
    ```sh
@@ -61,4 +61,4 @@ This project is licensed under the MIT License.
 ## Contact
 For any inquiries, feel free to reach out:
 - **GitHub:** (https://github.com/ShashiShekharDixit/Medi-Map-.git)
-- **Email:** shashiswadh20@gmail.com
+- **Email:** shashiswadh20@gmail.com -->

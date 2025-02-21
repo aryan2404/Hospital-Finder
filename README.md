@@ -2,7 +2,7 @@
 
 HospitalFinder is a web application that helps users find nearby hospitals based on their real-time location. Whether it's an emergency or planned healthcare visit, HospitalFinder provides instant access to medical facilities through an interactive map.
 
-<!-- ## Features
+## Features
 - Real-time hospital search based on user location
 - Interactive Google Maps integration
 - User-friendly interface with smooth navigation
@@ -21,7 +21,7 @@ Follow these steps to set up and run HospitalFinder locally:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/ShashiShekharDixit/Medi-Map-.git
+   git clone https://github.com/aryan2404/Hospital-Finder
    ```
 2. Navigate to the project folder:
    ```sh
@@ -60,5 +60,5 @@ This project is licensed under the MIT License.
 
 ## Contact
 For any inquiries, feel free to reach out:
-- **GitHub:** (https://github.com/ShashiShekharDixit/Medi-Map-.git)
-- **Email:** shashiswadh20@gmail.com -->
+- **GitHub:** (https://github.com/aryan2404/Hospital-Finder)
+- **Email:** aryanpandey0107@gmail.com
